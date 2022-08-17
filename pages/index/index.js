@@ -11,7 +11,6 @@ Page({
   },
 
   getMyInfo(e) {
-    
     //e=event，微信的事件系统，可以将它视为一个微信的内部请求，具体看这里
     //https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html
 
