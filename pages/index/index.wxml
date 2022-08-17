@@ -1,0 +1,10 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="userInfo">
+    <image src='{{src}}' mode='widthFix'></image>
+    <text>{{name}}</text>
+    
+    <!--此功能已不再可用，将返回匿名信息-->
+    <button open-type="getUserInfo" bindgetuserinfo="getMyInfo">获取头像和昵称</button>
+  </view>
+</view>
